@@ -1,0 +1,51 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "MIPS_Mux_2x1_4_1",
+    "cell_name": "Mux_2x1_4",
+    "component_reference": "xilinx.com:module_ref:Mux_2x1:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../MIPS_Project.gen/sources_1/bd/MIPS/ip/MIPS_Mux_2x1_4_1",
+    "parameters": {
+      "component_parameters": {
+        "N": [ { "value": "32", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "MIPS_Mux_2x1_4_1", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "N": [ { "value": "32", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "kintex7" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7k70t" } ],
+        "NEXTGEN_VERSAL": [ { "value": "0" } ],
+        "PACKAGE": [ { "value": "fbv676" } ],
+        "PREFHDL": [ { "value": "VHDL" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../MIPS_Project.gen/sources_1/bd/MIPS/ip/MIPS_Mux_2x1_4_1" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.1" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "I0": [ { "direction": "in", "size_left": "31", "size_right": "0" } ],
+        "I1": [ { "direction": "in", "size_left": "31", "size_right": "0" } ],
+        "sel": [ { "direction": "in" } ],
+        "Y": [ { "direction": "out", "size_left": "31", "size_right": "0" } ]
+      }
+    }
+  }
+}

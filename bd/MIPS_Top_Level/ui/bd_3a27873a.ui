@@ -1,0 +1,57 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.0698959",
+   "Default View_TopLeft":"29,-5122",
+   "ExpandedHierarchyInLayout":"",
+   "comment_0":"PC+4+BranchAddr",
+   "comment_1":"PC+4",
+   "comment_2":"PC+4",
+   "comment_3":"PC+4+BranchAddr",
+   "comment_4":"PC+4+BranchAddr",
+   "comment_5":"PC+4",
+   "commentid":"comment_0|comment_1|comment_2|comment_3|comment_4|comment_5|",
+   "fillcolor_comment_0":"",
+   "fillcolor_comment_1":"",
+   "fillcolor_comment_2":"",
+   "fillcolor_comment_3":"",
+   "fillcolor_comment_4":"",
+   "fillcolor_comment_5":"",
+   "font_comment_0":"13",
+   "font_comment_1":"13",
+   "font_comment_2":"13",
+   "font_comment_3":"13",
+   "font_comment_4":"13",
+   "font_comment_5":"13",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace cgraphic comment_3 place top -598 -981 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_2 place top 177 -855 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_1 place top -603 -626 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_0 place left -435 -423 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_4 place top 904 265 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_5 place top -734 -944 textcolor 4 linecolor 3 linewidth 2
+levelinfo -pg 1 0 2190 4810
+pagesize -pg 1 -db -bbox -sgen -150 -1180 5040 1130
+",
+   "linecolor_comment_0":"",
+   "linecolor_comment_1":"",
+   "linecolor_comment_2":"",
+   "linecolor_comment_3":"",
+   "linecolor_comment_4":"",
+   "linecolor_comment_5":"",
+   "textcolor_comment_0":"",
+   "textcolor_comment_1":"",
+   "textcolor_comment_2":"",
+   "textcolor_comment_3":"",
+   "textcolor_comment_4":"",
+   "textcolor_comment_5":""
+}
+
+{
+   "/comment_0":"comment_0",
+   "/comment_1":"comment_1",
+   "/comment_2":"comment_2",
+   "/comment_3":"comment_3",
+   "/comment_4":"comment_4",
+   "/comment_5":"comment_5"
+}

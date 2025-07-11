@@ -1,0 +1,18 @@
+# Vivado auto-generated files
+*.jou
+*.log
+*.str
+*.cache/
+*.runs/
+*.ip_user_files/
+*.hw/
+*.Xil/
+*.sim/
+*.webtalk/
+*.tmp/
+*.wdb
+
+# OS and user files
+*.DS_Store
+*.swp
+*.vscode/

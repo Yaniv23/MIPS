@@ -1,0 +1,118 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.16629",
+   "Default View_TopLeft":"-485,518",
+   "ExpandedHierarchyInLayout":"",
+   "comment_0":"PC+4+BranchAddr",
+   "comment_1":"PC+4",
+   "comment_2":"PC+4+BranchAddr",
+   "comment_3":"PC+4",
+   "commentid":"comment_0|comment_1|comment_2|comment_3|",
+   "fillcolor_comment_0":"",
+   "fillcolor_comment_1":"",
+   "fillcolor_comment_2":"",
+   "fillcolor_comment_3":"",
+   "font_comment_0":"5",
+   "font_comment_1":"5",
+   "font_comment_2":"5",
+   "font_comment_3":"5",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_C_F_0 -pg 1 -lvl 3 -x 2340 -y 1110 -defaultsOSRD
+preplace port port-id_OF_F_0 -pg 1 -lvl 3 -x 2340 -y 1080 -defaultsOSRD
+preplace portBus Instruction_0 -pg 1 -lvl 3 -x 2340 -y 990 -defaultsOSRD
+preplace portBus rst_manual -pg 1 -lvl 0 -x -400 -y 1950 -defaultsOSRD
+preplace inst ALU_Control_0 -pg 1 -lvl 1 -x 120 -y 320 -defaultsOSRD
+preplace inst BarrelShift_0 -pg 1 -lvl 1 -x 120 -y 4010 -defaultsOSRD
+preplace inst BarrelShift_1 -pg 1 -lvl 1 -x 120 -y 3910 -defaultsOSRD
+preplace inst Control_Unit_0 -pg 1 -lvl 1 -x 120 -y 560 -defaultsOSRD
+preplace inst Data_Memory_0 -pg 1 -lvl 1 -x 120 -y 770 -defaultsOSRD
+preplace inst Instruction_15_dwnto_0 -pg 1 -lvl 1 -x 120 -y 960 -defaultsOSRD
+preplace inst Instruction_15_dwnto_11 -pg 1 -lvl 1 -x 120 -y 1060 -defaultsOSRD
+preplace inst Instruction_20_dwnto_16 -pg 1 -lvl 1 -x 120 -y 3810 -defaultsOSRD
+preplace inst Instruction_25_dwnto_21 -pg 1 -lvl 1 -x 120 -y 1160 -defaultsOSRD
+preplace inst Instruction_5_dwnto_0 -pg 1 -lvl 1 -x 120 -y 3710 -defaultsOSRD
+preplace inst Instruction_Memory_0 -pg 1 -lvl 1 -x 120 -y 1260 -defaultsOSRD
+preplace inst MIPS_ALU_0 -pg 1 -lvl 1 -x 120 -y 1390 -defaultsOSRD
+preplace inst Mux_2x1_0 -pg 1 -lvl 1 -x 120 -y 3590 -defaultsOSRD
+preplace inst Mux_2x1_1 -pg 1 -lvl 1 -x 120 -y 3450 -defaultsOSRD
+preplace inst Mux_2x1_2 -pg 1 -lvl 1 -x 120 -y 1570 -defaultsOSRD
+preplace inst Mux_2x1_3 -pg 1 -lvl 1 -x 120 -y 1730 -defaultsOSRD
+preplace inst Mux_2x1_4 -pg 1 -lvl 1 -x 120 -y 1870 -defaultsOSRD
+preplace inst OUT_25_dwnto_0 -pg 1 -lvl 1 -x 120 -y 3330 -defaultsOSRD
+preplace inst OUT_25_dwnto_1 -pg 1 -lvl 1 -x 120 -y 1990 -defaultsOSRD
+preplace inst OUT_31_dwnto_26 -pg 1 -lvl 1 -x 120 -y 3230 -defaultsOSRD
+preplace inst PC_0 -pg 1 -lvl 1 -x 120 -y 3110 -defaultsOSRD
+preplace inst Register_File_0 -pg 1 -lvl 1 -x 120 -y 2940 -defaultsOSRD
+preplace inst Sign_Extender_0 -pg 1 -lvl 1 -x 120 -y 2090 -defaultsOSRD
+preplace inst c_addsub_0 -pg 1 -lvl 1 -x 120 -y 2790 -defaultsOSRD
+preplace inst c_addsub_1 -pg 1 -lvl 1 -x 120 -y 2680 -defaultsOSRD
+preplace inst sim_clk_gen_0 -pg 1 -lvl 1 -x 120 -y 2200 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -x 120 -y 2560 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 1 -x 120 -y 2320 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -x 120 -y 2440 -defaultsOSRD
+preplace netloc ALU_Control_0_OP_out 1 0 2 -90 110 500
+preplace netloc BarrelShift_0_data_out 1 0 2 -60 1480 310
+preplace netloc Control_Unit_0_ALUOp 1 0 2 -40 120 490
+preplace netloc Control_Unit_0_ALUSrc 1 0 2 -280 130 440
+preplace netloc Control_Unit_0_Branch 1 0 2 -270 140 480
+preplace netloc Control_Unit_0_Jump 1 0 2 -260 150 460
+preplace netloc Control_Unit_0_MemRead 1 0 2 -80 160 430
+preplace netloc Control_Unit_0_MemWrite 1 0 2 -50 170 400
+preplace netloc Control_Unit_0_MemtoReg 1 0 2 -150 390 350
+preplace netloc Control_Unit_0_RegDst 1 0 2 -130 400 290
+preplace netloc Control_Unit_0_RegWrite 1 0 2 -120 410 300
+preplace netloc Data_Memory_0_ReadData 1 0 2 -250 180 360
+preplace netloc Instruction_15_dwnto_0_Dout 1 0 2 -340 40 280
+preplace netloc Instruction_15_dwnto_11_Dout 1 0 2 -330 50 340
+preplace netloc Instruction_20_dwnto_16_Dout 1 0 2 -90 4070 280
+preplace netloc Instruction_25_dwnto_21_Dout 1 0 2 -320 60 390
+preplace netloc Instruction_5_dwnto_0_Dout 1 0 2 -350 30 530
+preplace netloc Instruction_Memory_0_Instruction 1 0 3 -240 190 550 990 N
+preplace netloc MIPS_ALU_0_Alu_Rslt 1 0 2 -310 70 420
+preplace netloc MIPS_ALU_0_C_F 1 1 2 570 1110 N
+preplace netloc MIPS_ALU_0_OF_F 1 1 2 560 1080 N
+preplace netloc MIPS_ALU_0_Zero_F 1 0 2 -300 80 510
+preplace netloc Mux_2x1_0_Y 1 0 2 -110 4080 350
+preplace netloc Mux_2x1_1_Y 1 0 2 -130 4090 390
+preplace netloc Mux_2x1_2_Y 1 0 2 -40 1490 280
+preplace netloc Mux_2x1_3_Y 1 0 2 -290 90 380
+preplace netloc Mux_2x1_4_Y 1 0 2 -50 1650 280
+preplace netloc OUT_25_dwnto_0_Dout 1 0 2 -230 200 520
+preplace netloc OUT_25_dwnto_1_Dout 1 0 2 -220 210 470
+preplace netloc OUT_31_dwnto_26_Dout 1 0 2 -70 20 540J
+preplace netloc Op2_0_1 1 0 1 -380J 1950n
+preplace netloc PC_0_PC_out 1 0 2 -100 420 500
+preplace netloc Register_File_0_ReadData1 1 0 2 -110 100 330
+preplace netloc Register_File_0_ReadData2 1 0 2 -210 220 450
+preplace netloc Sign_Extender_0_out_32 1 0 2 -200 230 410
+preplace netloc c_addsub_0_S 1 0 2 -180 240 370
+preplace netloc c_addsub_1_S 1 0 2 -160 250 320
+preplace netloc sim_clk_gen_0_clk 1 0 2 -140 860 300
+preplace netloc sim_clk_gen_0_sync_rst 1 0 2 -80 870 440
+preplace netloc util_vector_logic_0_Res 1 0 2 -70 880 400
+preplace netloc util_vector_logic_1_Res 1 0 2 -190 890 290
+preplace netloc xlconcat_0_dout 1 0 2 -170 900 360
+preplace cgraphic comment_3 place left 324 2445 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_2 place bot 1027 -716 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_1 place left -423 -410 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_0 place left -435 -423 textcolor 4 linecolor 3 linewidth 2
+levelinfo -pg 1 -400 120 680 2340
+pagesize -pg 1 -db -bbox -sgen -550 -1220 2510 4100
+",
+   "linecolor_comment_0":"",
+   "linecolor_comment_1":"",
+   "linecolor_comment_2":"",
+   "linecolor_comment_3":"",
+   "textcolor_comment_0":"",
+   "textcolor_comment_1":"",
+   "textcolor_comment_2":"",
+   "textcolor_comment_3":""
+}
+0
+{
+   "/comment_0":"comment_0",
+   "/comment_1":"comment_1",
+   "/comment_2":"comment_2",
+   "/comment_3":"comment_3"
+}

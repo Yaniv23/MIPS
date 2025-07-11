@@ -1,0 +1,107 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.615572",
+   "Default View_TopLeft":"2840,-49",
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "comment_0":"PC+4",
+   "comment_1":"PC+4+BranchAddr",
+   "commentid":"comment_0|comment_1|",
+   "fillcolor_comment_0":"#ffffff",
+   "fillcolor_comment_1":"#ffffff",
+   "font_comment_0":"4",
+   "font_comment_1":"3",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_C_F_0 -pg 1 -lvl 17 -x 4540 -y 730 -defaultsOSRD
+preplace port port-id_OF_F_0 -pg 1 -lvl 17 -x 4540 -y 700 -defaultsOSRD
+preplace portBus Instruction_0 -pg 1 -lvl 17 -x 4540 -y 180 -defaultsOSRD
+preplace portBus rst_manual -pg 1 -lvl 0 -x -250 -y 280 -defaultsOSRD
+preplace inst PC_0 -pg 1 -lvl 3 -x 750 -y 200 -defaultsOSRD
+preplace inst c_addsub_0 -pg 1 -lvl 5 -x 1280 -y 60 -defaultsOSRD
+preplace inst Mux_2x1_0 -pg 1 -lvl 16 -x 4410 -y 250 -defaultsOSRD
+preplace inst Instruction_Memory_0 -pg 1 -lvl 2 -x 400 -y 470 -defaultsOSRD
+preplace inst sim_clk_gen_0 -pg 1 -lvl 1 -x -80 -y 150 -defaultsOSRD
+preplace inst Mux_2x1_1 -pg 1 -lvl 15 -x 4180 -y 270 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -x -80 -y 270 -defaultsOSRD
+preplace inst Instruction_25_dwnto_21 -pg 1 -lvl 3 -x 750 -y 630 -defaultsOSRD
+preplace inst Instruction_20_dwnto_16 -pg 1 -lvl 3 -x 750 -y 730 -defaultsOSRD
+preplace inst Instruction_15_dwnto_11 -pg 1 -lvl 3 -x 750 -y 830 -defaultsOSRD
+preplace inst OUT_31_dwnto_26 -pg 1 -lvl 3 -x 750 -y 460 -defaultsOSRD
+preplace inst Instruction_15_dwnto_0 -pg 1 -lvl 3 -x 750 -y 940 -defaultsOSRD
+preplace inst Instruction_5_dwnto_0 -pg 1 -lvl 3 -x 750 -y 1050 -defaultsOSRD
+preplace inst c_addsub_1 -pg 1 -lvl 11 -x 3060 -y 340 -defaultsOSRD
+preplace inst OUT_25_dwnto_0 -pg 1 -lvl 3 -x 750 -y -70 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 9 -x 2390 -y -60 -defaultsOSRD
+preplace inst OUT_25_dwnto_1 -pg 1 -lvl 8 -x 2150 -y -10 -defaultsOSRD
+preplace inst Register_File_0 -pg 1 -lvl 6 -x 1580 -y 760 -defaultsOSRD
+preplace inst Mux_2x1_2 -pg 1 -lvl 4 -x 1030 -y 840 -defaultsOSRD
+preplace inst Mux_2x1_3 -pg 1 -lvl 9 -x 2390 -y 850 -defaultsOSRD
+preplace inst MIPS_ALU_0 -pg 1 -lvl 10 -x 2680 -y 690 -defaultsOSRD
+preplace inst Sign_Extender_0 -pg 1 -lvl 6 -x 1580 -y 970 -defaultsOSRD
+preplace inst BarrelShift_1 -pg 1 -lvl 10 -x 2680 -y 350 -defaultsOSRD
+preplace inst ALU_Control_0 -pg 1 -lvl 10 -x 2680 -y 1010 -defaultsOSRD
+preplace inst Control_Unit_0 -pg 1 -lvl 7 -x 1880 -y 460 -defaultsOSRD
+preplace inst Mux_2x1_4 -pg 1 -lvl 11 -x 3060 -y 650 -defaultsOSRD
+preplace inst Data_Memory_0 -pg 1 -lvl 11 -x 3060 -y 490 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 8 -x 2150 -y -210 -defaultsOSRD
+preplace inst XOR_Zero_Opcode_0 -pg 1 -lvl 13 -x 3590 -y 440 -defaultsOSRD
+preplace inst Opcode_0 -pg 1 -lvl 12 -x 3340 -y 370 -defaultsOSRD
+preplace inst AND_branch -pg 1 -lvl 14 -x 3890 -y 440 -defaultsOSRD
+preplace netloc ALU_Control_0_OP_out 1 9 2 2540 600 2820
+preplace netloc AND_branch_Res 1 14 1 4060 290n
+preplace netloc BarrelShift_1_data_out 1 10 1 2870 330n
+preplace netloc Control_Unit_0_ALUOp 1 7 3 NJ 480 NJ 480 2500
+preplace netloc Control_Unit_0_ALUSrc 1 7 2 NJ 520 2250
+preplace netloc Control_Unit_0_Branch 1 7 7 2040 430 NJ 430 NJ 430 2860J 750 3240J 510 NJ 510 3730J
+preplace netloc Control_Unit_0_Jump 1 7 9 2030 240 NJ 240 NJ 240 NJ 240 NJ 240 N 240 N 240 4050 350 4290J
+preplace netloc Control_Unit_0_MemRead 1 7 4 NJ 440 NJ 440 NJ 440 2910
+preplace netloc Control_Unit_0_MemWrite 1 7 4 NJ 500 NJ 500 NJ 500 2900
+preplace netloc Control_Unit_0_MemtoReg 1 7 4 NJ 460 NJ 460 NJ 460 2870
+preplace netloc Control_Unit_0_RegDst 1 3 5 930 600 NJ 600 NJ 600 NJ 600 2020
+preplace netloc Control_Unit_0_RegWrite 1 5 3 1430 610 NJ 610 2010
+preplace netloc Data_Memory_0_ReadData 1 10 2 2910 760 3220
+preplace netloc Instruction_15_dwnto_0_Dout 1 3 3 NJ 940 NJ 940 1370
+preplace netloc Instruction_15_dwnto_11_Dout 1 3 1 900 830n
+preplace netloc Instruction_20_dwnto_16_Dout 1 3 3 920 750 N 750 NJ
+preplace netloc Instruction_25_dwnto_21_Dout 1 3 3 NJ 630 N 630 1370
+preplace netloc Instruction_5_dwnto_0_Dout 1 3 7 N 1050 NJ 1050 NJ 1050 NJ 1050 2010 1000 NJ 1000 NJ
+preplace netloc Instruction_Memory_0_Instruction 1 2 15 590 110 NJ 110 1140 120 N 120 NJ 120 N 120 N 120 N 120 N 120 N 120 N 120 N 120 4030 170 NJ 170 4510J
+preplace netloc MIPS_ALU_0_Alu_Rslt 1 10 1 2890 470n
+preplace netloc MIPS_ALU_0_C_F 1 10 7 2840J 730 NJ 730 N 730 N 730 N 730 NJ 730 NJ
+preplace netloc MIPS_ALU_0_OF_F 1 10 7 2830J 770 NJ 770 N 770 N 770 4030 740 NJ 740 4510J
+preplace netloc MIPS_ALU_0_Zero_F 1 10 3 2850 740 3230J 430 NJ
+preplace netloc Mux_2x1_0_Y 1 2 15 600 290 NJ 290 N 290 NJ 290 N 290 2020 250 N 250 N 250 N 250 N 250 N 250 N 250 4030 360 N 360 4510
+preplace netloc Mux_2x1_1_Y 1 15 1 4280 230n
+preplace netloc Mux_2x1_2_Y 1 4 2 1140 770 NJ
+preplace netloc Mux_2x1_3_Y 1 9 1 2510 690n
+preplace netloc Mux_2x1_4_Y 1 5 7 1430 870 1740J 770 NJ 770 NJ 770 2490J 780 NJ 780 3210
+preplace netloc OUT_25_dwnto_0_Dout 1 3 6 NJ -70 NJ -70 NJ -70 NJ -70 NJ -70 2270
+preplace netloc OUT_25_dwnto_1_Dout 1 8 1 2270 -40n
+preplace netloc OUT_31_dwnto_26_Dout 1 3 9 N 460 NJ 460 NJ 460 1740J 320 2040 270 N 270 N 270 N 270 3220
+preplace netloc Op2_0_1 1 0 1 N 280
+preplace netloc Opcode_0_Dout 1 12 1 3440 370n
+preplace netloc PC_0_PC_out 1 1 4 240 280 N 280 910 60 N
+preplace netloc Register_File_0_ReadData1 1 6 4 1730 670 N 670 NJ 670 NJ
+preplace netloc Register_File_0_ReadData2 1 6 5 1730J 780 N 780 2290 490 N 490 N
+preplace netloc Sign_Extender_0_out_32 1 6 4 N 970 2040 850 2280J 350 NJ
+preplace netloc XOR_Zero_Opcode_0_Res 1 13 1 3730 430n
+preplace netloc c_addsub_0_S 1 5 10 N 60 NJ 60 2050 60 N 60 N 60 2910 260 N 260 N 260 N 260 4040
+preplace netloc c_addsub_1_S 1 11 4 3230 270 N 270 N 270 N
+preplace netloc sim_clk_gen_0_clk 1 1 10 N 140 600 120 N 120 1130 130 1420 620 N 620 2040 450 N 450 N 450 N
+preplace netloc sim_clk_gen_0_sync_rst 1 0 2 -220 80 60
+preplace netloc util_vector_logic_0_Res 1 1 2 60 200 N
+preplace netloc xlconcat_0_dout 1 9 7 NJ -60 N -60 N -60 N -60 N -60 N -60 4290
+preplace netloc xlconstant_0_dout 1 8 1 2270 -210n
+preplace cgraphic comment_1 place right -643 268 textcolor 4 linecolor 3 linewidth 2 fillcolor V,6,1
+preplace cgraphic comment_0 place right -638 243 textcolor 4 linecolor 3 linewidth 2 fillcolor V,6,1
+levelinfo -pg 1 -250 -80 400 750 1030 1280 1580 1880 2150 2390 2680 3060 3340 3590 3890 4180 4410 4540
+pagesize -pg 1 -db -bbox -sgen -410 -350 4730 1120
+"
+}
+0
+{
+   "/comment_0":"comment_0",
+   "/comment_1":"comment_1"
+}
